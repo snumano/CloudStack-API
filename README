@@ -1,6 +1,30 @@
-A sample Perl script for CloudSｔack API.
+generate-url.pl  version 0.01
+===========================
+This is a sample program to generate URL with CloudStack API.
 
-by snumano 2011/07/30
-
-Refer following,
+Please refer to the following for details　CloudStack API. 
+http://download.cloud.com/releases/2.2.0/api_2.2.4/TOC_User.html
 http://184.72.54.214/kb/security-0
+
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+Digest::SHA
+Getopt::Std
+File::Basename
+MIME::Base64
+WWW::Mechanize
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011 by Shugo Numano
+
+This program is free software; you can redistribute it and/or 
+modify it under the same terms as Perl itself.
+See http://dev.perl.org/licenses/ for more information.
+
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
