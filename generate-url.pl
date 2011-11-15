@@ -27,7 +27,7 @@ my $command = $opt_u;
 my $api_key = $opt_a;
 my $secret_key = $opt_s;
 
-### Create URL ###
+### Generate URL ###
 
 #
 #step1
