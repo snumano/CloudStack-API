@@ -1,10 +1,10 @@
-generate-url.pl  version 0.01
+generate-url.pl  version 0.05
 ===========================
 This is a sample program to generate URL with CloudStack API.
 
 Please refer to the following for details　CloudStack API. 
-http://download.cloud.com/releases/2.2.0/api_2.2.4/TOC_User.html
-http://184.72.54.214/kb/security-0
+http://docs.cloud.com/CloudStack_Documentation/Developer%27s_Guide%3A_CloudStack
+
 
 
 DEPENDENCIES
@@ -15,7 +15,9 @@ Getopt::Std
 File::Basename
 MIME::Base64
 WWW::Mechanize
-
+Encode
+XML::Twig
+URI::Encode
 
 COPYRIGHT AND LICENCE
 
