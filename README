@@ -1,5 +1,5 @@
-generate-url.pl  version 0.05
-===========================
+generate-url.pl  version 0.06
+=============================
 This is a sample program to generate URL with CloudStack API.
 
 Please refer to the following for details　CloudStack API. 
