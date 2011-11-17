@@ -21,12 +21,12 @@ my $site = "http://*.*.*.*/client/api?"; #Pls enter your Base URL & API Path.
 getopt "uasf";
 
 if(!defined($opt_u) || !defined($opt_a) || !defined($opt_s) || !defined($opt_f)){
-    die("Usage:\n$my_filename -f <flag:1.URL, 2.output ,3.both> -u \"command=<cmd>\" -a <api_key> -s <secret_key>\n");
+    die("Usage:\n$my_filename -f <flag:1.URL, 2.response ,3.both> -u \"command=<cmd>\" -a <api_key> -s <secret_key>\n");
 }
 my $command = $opt_u;
 my $api_key = $opt_a;
 my $secret_key = $opt_s;
-my $flag = $opt_f;			#Flag for output. 1:URL, 2:output ,3:both
+my $flag = $opt_f;			#Flag for output:1.URL, 2.response ,3.both
 
 my $uri = URI::Encode->new();
 
