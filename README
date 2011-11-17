@@ -6,7 +6,6 @@ Please refer to the following for details　CloudStack API.
 http://docs.cloud.com/CloudStack_Documentation/Developer%27s_Guide%3A_CloudStack
 
 
-
 DEPENDENCIES
 
 This module requires these other modules and libraries:
@@ -18,6 +17,8 @@ WWW::Mechanize
 Encode
 XML::Twig
 URI::Encode
+JSON
+
 
 COPYRIGHT AND LICENCE
 
