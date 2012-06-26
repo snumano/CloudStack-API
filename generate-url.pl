@@ -53,7 +53,7 @@ my $output = join("&",sort @list);
 my $digest = hmac_sha1($output, $secret_key);   
 my $base64_encoded = encode_base64($digest);chomp($base64_encoded);
 my $url_encoded = $uri->encode($base64_encoded, 1); # encode_reserved option is set to 1
-my $url = $site."apikey=".$api_key."&".$command."&signature=".$url_encoded;
+my $url = $site.$command."&apikey=".$api_key."&signature=".$url_encoded;
 
 if($flag == 1 || $flag ==3){
 	print "\nGenerate URL...\n".$url."\n\n";
